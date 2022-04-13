@@ -1,0 +1,58 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background: url("../../assets/images//background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home .text-one{
+    font-size: 25px;
+    color: #4070f4;
+  }
+  .home .text-two{
+    color: #0E2431;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  /* .home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: ;
+  } */
+  .home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #4070f4;
+  }
+  .home .button{
+    margin: 14px 0;
+  }
+  .home .button .login-button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #0E2431;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+    text-decoration: none;
+  }
+  .home .button .login-button:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }

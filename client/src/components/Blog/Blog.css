@@ -1,0 +1,51 @@
+.blogs-section{
+    width: 100%;
+    /* padding: 8px 4vw; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+  }
+  
+  .why-us h2 {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: normal;
+  }
+  
+  .blogs-section h1 {
+    padding: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .blogs-section p {
+    padding: 2px;
+    /* text-align: center; */
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+  
+  .blog-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-overview{
+    margin: 10px 0 20px;
+    line-height: 30px;
+  }
+  
+  .btn.dark{
+    background: #1b1b1b;
+    color: #fff;
+  }
+  .blog-card{
+    height: 250px;
+    width:500px;
+    margin: 80px 50px;
+  }
