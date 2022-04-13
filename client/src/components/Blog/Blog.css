@@ -2,7 +2,7 @@
     width: 100%;
     /* padding: 8px 4vw; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
     grid-gap: 60px;
   }
   
@@ -12,10 +12,10 @@
     font-size: 40px;
     font-weight: normal;
   }
-  
+
   .blogs-section h1 {
-    padding: 2px;
-    text-align: center;
+    /* padding: 2px;
+    text-align: center; */
     font-size: 1.5rem;
     font-weight: 600;
   }
@@ -36,7 +36,7 @@
   }
   
   .blog-overview{
-    margin: 10px 0 20px;
+    /* margin: 10px 0 20px; */
     line-height: 30px;
   }
   

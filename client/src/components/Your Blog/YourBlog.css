@@ -14,10 +14,10 @@
     font-size: 40px;
     font-weight: normal;
   }
-  
+
   .blogs-section h1 {
-    padding: 2px;
-    text-align: center;
+    /* padding: 2px;
+    text-align: center; */
     font-size: 1.5rem;
     font-weight: 600;
   }
@@ -39,7 +39,7 @@
   }
   
   .blog-overview{
-    margin: 10px 0 10px;
+    /* margin: 10px 0 10px; */
     line-height: 30px;
   }
   
