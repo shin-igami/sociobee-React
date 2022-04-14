@@ -13,7 +13,7 @@ function limitWord(myString){
   return `${myString
     .replace(/\s+/g, ' ') // remove extra spaces between words
     .split(' ')           // split string into array (using spaces as seperator)
-    .splice(0, 30)     // splice the array to the desired word limit
+    .splice(0, 10)     // splice the array to the desired word limit
     .join(' ')}...`;           // join it back into string (using spaces as seperator)
  }
   return (
