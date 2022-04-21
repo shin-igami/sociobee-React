@@ -80,7 +80,7 @@ const Login = () => {
                 <div className="form-container sign-up-container">
                     <form onSubmit={submitSignUp}>
                         <h1>Create Account</h1>
-                        <span>or use your email for registration</span>
+                        <span></span>
                         <input type="text" placeholder="Name" name='name' value={signUp.name} onChange={onChange1} required/>
                         <input type="email" placeholder="Email" name='email' value={signUp.email} onChange={onChange1} required/>
                         <input type="password" placeholder="Password" name='password' value={signUp.password} onChange={onChange1} required/>
@@ -90,10 +90,10 @@ const Login = () => {
                 <div className="form-container sign-in-container">
                     <form onSubmit={submitSignIn}>
                         <h1>Sign in</h1>
-                        <span>or use your account</span>
+                        <span></span>
                         <input type="email" placeholder="Email" name='email' value={signIn.email} onChange={onChange2} required/>
                         <input type="password" placeholder="Password" name='password' value={signIn.password} onChange={onChange2} required/>
-                        <a href="#">Forgot your password?</a>
+                        <a href="#">Thanks for joining us!</a>
                         <button >Sign In</button>
                     </form>
                 </div>
@@ -101,12 +101,12 @@ const Login = () => {
                     <div className="overlay">
                         <div className="overlay-panel overlay-left">
                             <h1>Welcome Back!</h1>
-                            <p>To keep connected with us please login with your personal info</p>
+                            <p>We are happy to see you back with some amazing blogs!</p>
                             <button className="ghost" id="signIn" onClick={handleSignIn}>Sign In</button>
                         </div>
                         <div className="overlay-panel overlay-right">
                             <h1>Hello, Friend!</h1>
-                            <p>Enter your personal details and start journey with us</p>
+                            <p>Join our Beehive to start blogging! You are just a few steps away.</p>
                             <button className="ghost" id="signUp" onClick={handleSignUp}>Sign Up</button>
                         </div>
                     </div>

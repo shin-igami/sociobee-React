@@ -102,3 +102,23 @@ textarea::-webkit-scrollbar-thumb{
     margin-left: 20px;
     font-size: 14px;
 }
+
+#publish-btn {
+    background-color: #0E2431;
+    margin-bottom: 20px;
+}
+#publish-btn:hover {
+    background-color: #4070f4;
+    margin-bottom: 20px;
+}
+
+#upload-btn {
+    background-color: #0E2431;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#upload-btn:hover {
+    background-color: #4070f4;
+    color: #fff;
+    margin-bottom: 20px;
+}

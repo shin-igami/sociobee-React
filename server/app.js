@@ -4,7 +4,7 @@ const cors = require('cors')
 
 
 const app = express();
-const DB = "mongodb+srv://sociobeeReact:sociobeeReact@cluster0.p5rxb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const DB = "mongodb+srv://sakshisaxena:sociobeewebsite@cluster0.o8fnc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(DB,{
     useNewUrlParser: true,

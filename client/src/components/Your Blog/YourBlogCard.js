@@ -22,7 +22,7 @@ function limitWord(myString){
     <p class="card-text"><small class="text-muted">by {blog.userName?blog.userName:"Unknown"} on {new Date(blog.date).toDateString()}</small></p>
     <h1 className="blog-title">{blog.title}</h1>
     <p className="blog-overview">{limitWord(blog.description)}</p>
-    <Link  to={`/blog`} className="btn dark" onClick={(() => previousCardData(blog) )}>Read</Link>
+    <Link  to={`/blog`} className="btn dark" id='your-read' onClick={(() => previousCardData(blog) )}>Read</Link>
     <Link to="/updateblog" type="button" class="btn btn-primary" onClick={(() => previousCardData(blog) )}>Edit</Link>
     <button onClick={handleClick} type="button" class="btn btn-danger">Delete</button>
 </div>

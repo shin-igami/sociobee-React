@@ -84,3 +84,7 @@ color: #FFF;
 .navbar .menu .menu-btn{
 color: #fff;
 }
+.btn-out {
+    background-color: #4070f4;
+    color: white;
+}

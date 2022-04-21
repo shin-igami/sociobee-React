@@ -47,15 +47,15 @@ const Editor = () => {
       </div>
 
       <div class="blog">
-        <textarea type="text" class="title" placeholder="Blog title..." name='title' value={title} onChange={(e) => setTitle(e.target.value)}></textarea>
+        <textarea type="text" class="title" placeholder="Enter your Blog title here.." name='title' value={title} onChange={(e) => setTitle(e.target.value)}></textarea>
         <textarea type="text" class="article" placeholder="Start writing here..." name='description' value={description} onChange={(e) => setDescription(e.target.value)}></textarea>
       </div>
 
       <div class="blog-options">
-        <button class="btn dark publish-btn" onClick={handleClick}>publish</button>
+        <button class="btn dark publish-btn" id='publish-btn' onClick={handleClick}>publish</button>
         <input type="file"
           accept=".png, .jpg, .jpeg" name='image' id="image-upload" filename="image" onChange={onChange} hidden required/>
-        <label htmlFor="image-upload" class="btn upload-btn">Upload Image</label>
+        <label htmlFor="image-upload" class="btn upload-btn" id='upload-btn'>Upload Image</label>
       </div></form>
   )
 }
