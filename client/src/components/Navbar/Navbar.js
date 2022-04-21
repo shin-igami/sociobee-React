@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="media-icons">
         <ul className="menu">
          {token &&
-          <li> <button className="btn btn-primary" onClick={handleLogout} role="button">LogOut</button></li>}
+          <li> <button className="btn btn-out" onClick={handleLogout} role="button">LogOut</button></li>}
       </ul>
       </div>
     </div>

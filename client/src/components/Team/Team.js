@@ -1,6 +1,9 @@
 import React from 'react'
 import './Team.css'
 import imageSakshi from '../../assets/images/sakshi.jpeg'
+import imageShreya from '../../assets/images/shreya.jpeg'
+import imageShahina from '../../assets/images/shahina.jpeg'
+import imageSurbhi from '../../assets/images/surbhi.jpeg'
 const Team = () => {
     return (
         <section className="our-team" id="team">
@@ -33,7 +36,7 @@ const Team = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="member">
-                            <img src={imageSakshi} className="img-fluid" alt="" />
+                            <img src={imageShahina} className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-detail">
                                     <h4>Shahina Ali Saifi</h4>
@@ -51,7 +54,7 @@ const Team = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="member">
-                            <img src={imageSakshi} className="img-fluid" alt="" />
+                            <img src={imageShreya} className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-detail">
                                     <h4>Shreya Singh</h4>
@@ -69,7 +72,7 @@ const Team = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="member">
-                            <img src={imageSakshi} className="img-fluid" alt="" />
+                            <img src={imageSurbhi} className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-detail">
                                     <h4>Surbhi Gupta</h4>
